@@ -1,0 +1,14 @@
+<!--/views/payment_new.erb-->
+<form action = "/payment/results">
+  <label for = "apr-input">APR</label>
+  <input id = "apr-input" name = "apr" type = "text" placeholder = "What number do you want?">
+  <div>
+    <label for="num_years">Number of years</label>
+    <input id = "num_years" name = "years" type = "text" placeholder = "How many years to repay?">
+  </div>
+  <div>
+    <label for="principal_input">Principal</label>
+    <input id = "principal_input" name = "principal" type = "text" placeholder ="How much principal?">
+  </div>
+  <div><button>Calculate monthly payment</button></div>
+</form>
